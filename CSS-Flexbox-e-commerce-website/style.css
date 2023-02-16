@@ -1,4 +1,8 @@
 
+* {
+    
+    font-family: Arial, Helvetica;
+}
 
     body{
         background-color: rgb(177, 109, 240);
@@ -55,6 +59,41 @@
         margin-right: auto;
         
     }
+
+
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px 50px;
+        box-shadow: 0 1px 8px #000000;
+        margin-bottom: 20px;
+    }
+    
+    .websiteName {
+        color: rgb(76, 22, 126);
+        margin-right: auto;
+        font-size: 3em;
+    }
+    
+    li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 20px;
+        font-weight: bold;
+    }
+    
+    a {
+        text-decoration:underline;
+        color: #ffffff;
+        
+    }
+    
+    a:hover {
+        color: rgb(201, 186, 215);
+    }
+
+    
       @media only screen and (max-width: 750px) {
         .row{
             flex-wrap: wrap;
